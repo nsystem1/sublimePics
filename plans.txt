@@ -1,0 +1,27 @@
+detials of users:
+number
+company/user name-unique=25 letters max
+first name
+last name
+mailid
+password
+cell number
+address
+city
+state
+website
+date/time
+about
+no of pics=0
+
+
+
+details of pics:
+number
+username
+caption
+date/time
+votes
+
+
+

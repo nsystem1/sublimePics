@@ -1,0 +1,71 @@
+.container_form {
+	padding-bottom:1px;
+  background: #2a2d35;
+  width: 415px;
+  margin: 0 auto; 
+}
+
+.banner {
+  padding: 15px 0;
+  color: #ddd;
+  font-family: Calibri;
+  letter-spacing: 2px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1)
+}
+
+.wrapper {
+  height: 30px;
+  margin: 20px 0;
+}
+
+.common {
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-family: Calibri;
+  font-size: 15px;
+  margin: 0px;
+  float: left;
+}
+
+.tbLabel {
+  display: block;
+  width: 160px;
+  color: #ccc;
+  padding: 5px 0 5px 5px;
+}
+
+.tb {
+  width: 240px;
+  color: #eee;
+  background: transparent;
+  padding: 5px;
+}
+
+.asterisk {
+  color: #f00;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  color: #eee;
+  background: rgba(255, 255, 255, 0.3);
+  border: 0;
+  outline: none;
+  letter-spacing: 2px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.btn:active, .btn:focus {
+  outline: 1px solid rgba(255, 255, 255, 0.3);
+} 

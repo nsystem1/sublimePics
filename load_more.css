@@ -1,0 +1,138 @@
+
+
+
+
+
+#main{
+	position:relative;
+	width:100%;
+	padding: 0;
+	text-align: center;
+width: 1250px;
+	margin:0 auto;
+font-size: 1.em;
+font-family: 'Roboto Slab', serif;
+font-weight: 400;
+text-decoration:none;
+color:#000;
+}
+
+#main .photo{
+	overflow:hidden;
+  display: inline-block;
+  width:300px;
+  height:270px;
+	margin:5px;
+	padding:0px;
+	color:#000;
+	
+}
+
+#main .photo img{
+	position:relative;
+  transition:0.5s;
+	max-width:280px;
+    max-height:210px;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+
+
+#loadMore{
+  background-color:#E54D42;
+  color:#FFF;
+  width:200px;
+  cursor:pointer;
+  display:block;
+  text-decoration:none;
+  border-bottom:0px;
+  position:relative;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 4px;
+	opacity:1;
+}
+.el-boton{
+text-align:center;
+position:fixed;
+height:0px;
+top:00px;
+}
+#loadMore:hover{
+	opacity: 0.9;
+  top:2px;
+  box-shadow:0px 4px 0px #C34238;
+}
+lm{
+font-size:20px;
+background:#E54D42;
+}
+
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #E8250F;
+  box-shadow: 0 0 5px #000;
+  background-color: #F34C31;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #E14938, 0 0 5px #E14938;
+  opacity: 1.0;
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+      -ms-transform: rotate(3deg) translate(0px, -4px);
+          transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Remove these to get rid of the spinner */
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 100;
+  top: 15px;
+  right: 15px;
+}
+
+#nprogress .spinner-icon {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border: solid 0.2em transparent;
+  border-color: #e74c3c #2ecc71 #3498db #f1c40f;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+          animation: nprogress-spinner 400ms linear infinite;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0%   { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes nprogress-spinner {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
